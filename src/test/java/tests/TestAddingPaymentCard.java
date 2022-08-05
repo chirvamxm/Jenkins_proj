@@ -30,18 +30,18 @@ public class TestAddingPaymentCard extends TestInit {
         HomePageHelper homePageHelper = new HomePageHelper(driver);
 
         goToSite("https://glovoapp.com/ua/uk/");
-        homePageHelper.signIn();
-        homePageWebElements.getYouLocationBtn().click();
-        clickBtnAllowInPushPopUp();
-        homePageWebElements.getProfileBtn().click();
-        homePageWebElements.getAddPaymentCardBtn().click();
-        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
-        homePageWebElements.getNameOnCardField().sendKeys("Ivan Ivanov");
-        homePageWebElements.getNumberOfCardField().sendKeys("5168877702365337");
-        homePageWebElements.getCardDateField().sendKeys("0824");
-        homePageWebElements.getCVVField().sendKeys("467");
-
-        Assert.assertTrue(homePageWebElements.getSaveCardBtn().isDisplayed());
+//        homePageHelper.signIn();
+//        homePageWebElements.getYouLocationBtn().click();
+//        clickBtnAllowInPushPopUp();
+//        homePageWebElements.getProfileBtn().click();
+//        homePageWebElements.getAddPaymentCardBtn().click();
+//        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+//        driver.switchTo().window(tabs.get(1));
+//        homePageWebElements.getNameOnCardField().sendKeys("Ivan Ivanov");
+//        homePageWebElements.getNumberOfCardField().sendKeys("5168877702365337");
+//        homePageWebElements.getCardDateField().sendKeys("0824");
+//        homePageWebElements.getCVVField().sendKeys("467");
+//
+//        Assert.assertTrue(homePageWebElements.getSaveCardBtn().isDisplayed());
     }
 }
