@@ -1,0 +1,10 @@
+tests\testsSomething\TestAddingPaymentCard.class
+tests\testsSomething\TestOrderPriceOnGlovo.class
+tests\testsSomething\TestSocialNetworksSection.class
+tests\TestInit.class
+listner\RetryTestListener.class
+pageObj\BasePage.class
+listner\TestListener.class
+listner\RetryAnalyzer.class
+pageObj\HomePageHelper.class
+pageObj\HomePageWebElements.class
